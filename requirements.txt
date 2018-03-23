@@ -1,0 +1,5 @@
+numpy==1.14
+matplotlib==2.1
+ipywidgets==7
+
+
