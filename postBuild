@@ -1,8 +1,10 @@
 #! /bin/sh
 
 fn="$HOME/.config/matplotlib/matplotlibrc"
+mkdir "$HOME" &> /dev/null
 mkdir "$HOME/.config" &> /dev/null
 mkdir "$HOME/.config/matplotlib" &> /dev/null
+if [ -d "$HOME/.config/matplotlib/" ]; then
 cat > "$fn" <<EOF
 # backend: TkAgg
 
@@ -44,4 +46,6 @@ grid.linewidth : 1.0
 figure.figsize   : 10.0, 9.6
 figure.dpi       : 300
 figure.max_open_warning : 50
-EOF 2>/dev/null
+EOF
+
+fi
