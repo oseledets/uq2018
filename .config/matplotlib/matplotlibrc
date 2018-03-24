@@ -1,0 +1,41 @@
+# backend: TkAgg
+
+# backend      : Qt5Agg
+interactive  : True
+
+
+### LINES
+lines.linestyle : -
+lines.linewidth : 2.0
+#lines.marker : o
+#lines.markeredgewidth : 1.0
+#lines.markersize : 4.0
+lines.antialiased : True
+
+
+### PATCHES
+#patch.edgecolor : eeeeee
+#patch.facecolor : blue
+
+
+### AXES
+axes.edgecolor : bcbcbc
+#axes.facecolor : eeeeee
+axes.facecolor : fbfbfb
+axes.grid : True
+axes.labelsize : large
+#axes.prop_cycle : cycler('color', ['xkcd:' + color for color in ['cadet blue', 'scarlet', 'bluegreen', 'military green', 'british racing green', 'midnight', 'rose red', 'cyan', 'gold', 'bluish purple']]) + cycler('linestyle', ['-', '--', '-.', ':', '-', '--', '-.', ':', '-', '--'])
+axes.prop_cycle : cycler('color', ['xkcd:' + color for color in ['cadet blue', 'scarlet', 'bluegreen', 'military green', 'british racing green', 'midnight', 'rose red', 'cyan', 'gold', 'bluish purple']])
+axes.titlepad : 10.0
+axes.titlesize : x-large
+
+### GRIDS
+grid.alpha : 0.3
+grid.linestyle : dashed
+grid.linewidth : 1.0
+
+### FIGURE
+figure.figsize   : 10.0, 9.6
+figure.dpi       : 300
+figure.max_open_warning : 50
+
