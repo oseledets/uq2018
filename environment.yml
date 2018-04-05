@@ -12,4 +12,6 @@ dependencies:
   - ipywidgets
   - scipy
   - numba
+  - pydoe
+  - pandas
 
